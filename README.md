@@ -49,6 +49,10 @@ function backTop() {
 
 //章节目录和正文内容（章节目录可能需要手动添加</br>
 
+<!-- 预警提示 -->
+<body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！您确定自己已年满十八周岁？')">
+</body>
+
 </body>
 </html>
 ```
