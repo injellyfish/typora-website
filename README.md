@@ -1,7 +1,6 @@
 # 使用到的网页代码
 ## 配置
-- 自留地利用GitHub+Vercel+Typora搭建，域名是Vercel免费提供的二级域名`http://injfnovel.now.sh/`
-- 
+- `沉目的自留地`利用GitHub+Vercel+Typora搭建，域名是Vercel免费提供的二级域名`http://injfnovel.now.sh/`
 ## 首页
 主题是Typora的Whitey主题，懒得改css了···
 ## 长文
