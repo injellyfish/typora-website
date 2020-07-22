@@ -22,12 +22,13 @@ html {
 }
 
 #write {
-  max-width: 860px;
+  max-width: 960px;
+  padding-top: 2em;
   padding-left: 60px;
   padding-right: 60px;
   min-height: calc(100vh - 6em);
   -webkit-font-smoothing: antialiased;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .typora-node #write {
@@ -43,13 +44,13 @@ pre.md-meta-block {
 
 @media screen and (max-width: 800px) {
     html {
-      font-size: 18px;
+      font-size: 14px;
     }
 
     #write {
       padding-left: 30px;
       padding-right: 30px;
-      font-size: 18px;
+      font-size: 14px;
     }
 }
 
@@ -65,7 +66,7 @@ pre.md-meta-block {
     }
 
     #write {
-      max-width: 860px;
+      max-width: 1000px;
       padding: 40px 60px;
       background: #fff;
       margin: 3em auto 3em;
@@ -74,7 +75,7 @@ pre.md-meta-block {
     }
 
     .pin-outline #write {
-      max-width: 860px;
+      max-width: 1000px;
       background: #fff;
       margin: 0 0 0;
       border: 0;
@@ -505,116 +506,3 @@ a.md-toc-inner {
   display: none;
   background: transparent;
 }
-
-/*.file-node-icon.fa.fa-folder:before {
-  content: "\f114";
-}
-#typora-sidebar {
-}*/
-
-/*.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
-  color: #fffff1;
-}
-.cm-s-typora-default .cm-link {
-    color: #86f9e2;
-    color: #e5f7eb;
-}
-.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
-    color: rgb(255, 199, 199);
-}
-.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
-    color: #dec4c7;
-}
-.cm-s-typora-default  .cm-em {
-  font-family: Georgia-Italic, STSongti-SC-Light, serif;
-  color: #f3ff7e;
-}
-.typora-sourceview-on .CodeMirror-cursor {
-  border-left: 3px solid #ffffd6;
-}
-.typora-sourceview-on #toggle-sourceview-btn {
-  background: #505050;
-}
-.typora-sourceview-on .cm-s-inner .cm-variable,
-.typora-sourceview-on .cm-s-inner .cm-operator,
-.typora-sourceview-on .cm-s-inner .cm-property {
-    color: #b8bfc6;
-}
-.typora-sourceview-on .cm-s-inner .cm-keyword {
-    color: #C88FD0;
-}
-.typora-sourceview-on .cm-s-inner .cm-tag {
-    color: #7DF46A;
-}
-.typora-sourceview-on .cm-s-inner .cm-attribute {
-    color: #7575E4;
-}
-.typora-sourceview-on .cm-s-inner .cm-string {
-    color: #D26B6B;
-}
-.typora-sourceview-on .cm-s-inner .cm-comment,
-.typora-sourceview-on .cm-s-inner.cm-comment {
-    color: #DA924A;
-}
-.typora-sourceview-on .cm-s-inner .cm-header,
-.typora-sourceview-on .cm-s-inner .cm-def,
-.typora-sourceview-on .cm-s-inner.cm-header,
-.typora-sourceview-on .cm-s-inner.cm-def {
-    color: #8d8df0;
-}
-.typora-sourceview-on .cm-s-inner .cm-quote,
-.typora-sourceview-on .cm-s-inner.cm-quote {
-    color: #57ac57;
-}
-.typora-sourceview-on .cm-s-inner .cm-hr {
-    color: #d8d5d5;
-}
-.typora-sourceview-on .cm-s-inner .cm-link {
-    color: #d3d3ef;
-}
-.typora-sourceview-on .cm-s-inner .cm-negative {
-    color: #d95050;
-}
-.typora-sourceview-on .cm-s-inner .cm-positive {
-    color: #50e650;
-}
-.typora-sourceview-on .cm-s-inner .cm-string-2 {
-    color: #f50;
-}
-.typora-sourceview-on .cm-s-inner .cm-meta,
-.typora-sourceview-on .cm-s-inner .cm-qualifier {
-    color: #b7b3b3;
-}
-.typora-sourceview-on .cm-s-inner .cm-builtin {
-    color: #f3b3f8;
-}
-.typora-sourceview-on .cm-s-inner .cm-bracket {
-    color: #997;
-}
-.typora-sourceview-on .cm-s-inner .cm-atom,
-.typora-sourceview-on .cm-s-inner.cm-atom {
-    color: #84B6CB;
-}
-.typora-sourceview-on .cm-s-inner .cm-number {
-    color: #64AB8F;
-}
-.typora-sourceview-on .cm-s-inner .cm-variable {
-    color: #b8bfc6;
-}
-.typora-sourceview-on .cm-s-inner .cm-variable-2 {
-    color: #9FBAD5;
-}
-.typora-sourceview-on .cm-s-inner .cm-variable-3 {
-    color: #1cc685;
-}
-.typora-sourceview-on .CodeMirror div.CodeMirror-cursor {
-    border-left: 1px solid #b8bfc6;
-    z-index: 3;
-}
-.cm-s-typora-default .CodeMirror-selectedtext,
-.typora-sourceview-on .CodeMirror-focused .CodeMirror-selected {
-  background: #212324;
-}
-.typora-sourceview-on .CodeMirror-linenumber {
-    color: rgb(255, 255, 255);
-}*/
