@@ -1,5 +1,7 @@
 # 配置
- `沉目的自留地`利用GitHub+Vercel+Typora进行搭建，网站采用了Typora的Han主题，域名是由Vercel免费提供的`http://injfnovel.now.sh/`</br>
+ `沉目的自留地`利用GitHub+Vercel+Typora进行搭建，网站采用了Typora的Han主题，域名是由Vercel免费提供的`http://injfnovel.now.sh/`
+ </br>
+ 
 # 目前1.0实现的功能
 1. 可隐藏的章节目录
 2. 一键返回顶部
@@ -65,7 +67,8 @@ function backTop() {
 </details>
 <p><ul class="markdownIt-TOC"></p>
 
-<!-- 正文部分 -->
+<!-- 正文部分【章节标题要用如下的形式】 -->
+<h2><a name="章节标题" class="md-header-anchor"></a><span>章节标题</span></h2>
 
 </div><footer><font size="3" color=grey><p class="copyright"><center>
 	©2020 沉目. All rights reserved.</br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme <a href="http://theme.typora.io/theme/Han/" target="_blank">Han</a> from <a href="https://typora.io/" target="_blank">Typora</a>.
@@ -77,6 +80,7 @@ function backTop() {
 
 2. 短篇小说的网页基本框架如下：
 *（取消了章节目录的功能）*
+
 ```
 <!doctype html>
 <html>
