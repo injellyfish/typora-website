@@ -1,46 +1,42 @@
-# 使用到的网页代码
-## 配置
-- `沉目的自留地`利用GitHub+Vercel+Typora搭建，域名是Vercel免费提供的二级域名`http://injfnovel.now.sh/`
-## 首页
-主题是Typora的Whitey主题，懒得改css了···
-## 长文
+### 配置
+ `沉目的自留地`利用GitHub+Vercel+Typora进行搭建，域名是由Vercel免费提供的`http://injfnovel.now.sh/`
+网站采用了Typora的Han主题
 **目前1.0实现的功能有：**
-1. 章节跳转
-2. 一键返回顶部
-3. 没得了</br>
-
+1. 可隐藏的章节目录
+2. 一键返回顶部</br>
 **以后希望做到的功能有：**
 - [x] 隐藏菜单目录
-- [x] 不同主题模式切换
+- [ ] 不同主题模式切换（可能不是很必要）
+- [ ] 添加评论区/留言板（或许可以用Lof代替）
 ## 代码
-1. 长文网页的基本框架如下：
+1. 中篇小说的网页基本框架如下：
 ```
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="https://injfnovel.now.sh/github.css">
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>遗落之墟的龙与精灵</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width initial-scale=1'>
+<link rel="stylesheet" type="text/css" id="github" href="https://injfnovel.now.sh/han.css">
+<title>小说标题</title><style type='text/css'>
 </head>
-<body class='typora-export os-windows' >
 
-<!-- 回顶部 -->
+<!-- 返回顶部 -->
 <style>
-.button1 {
-	font-size: 16px;
-	border: 1px solid #000000; 
-	border-radius: 4px;
+.button2 {
+	border: none; 
+	font-size: 10px;
+    	text-align: center;
+   	text-decoration: none;
 	background-color: #ffffff;
-	color: black;
+	color: #000000;
 }
 
-.button1:hover {
-    background-color: #000000;
+.button2:hover {
+    background-color: #ffffff;
     color: white;
 }
 </style>
-
-<a id="mback" style="position: fixed;bottom: 10px;right: 10px;" onclick="backTop()"><button class="button button1" >▲</button></a>
+<a id="mback" style="position: fixed;bottom: 10px;right: 10px;" onclick="backTop()"><button class="button2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"/></svg></button></a>
 
 <script type="text/javascript">
 function backTop() {
@@ -48,12 +44,85 @@ function backTop() {
 	}
 </script>
 
-//章节目录和正文内容（章节目录可能需要手动添加</br>
+<!-- 禁止复制 -->
+<body class='typora-export os-windows' leftmargin=0 topmargin=0 oncontextmenu='return false' ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false' onmouseup='document.selection.empty()'>
+<p>&nbsp;</p><div id='write'  class = ''>
 
-<!-- 预警提示 -->
-<body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！您确定自己已年满十八周岁？')">
+<!--网页提示-->
+<body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
+
+<!-- 返回首页 -->
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://injfnovel.now.sh/">返回首页</a>
+
+<!-- 折叠目录 -->
+<details><summary><strong><span>章节目录（点击展开）</span></strong></summary>
+	<a href="#第一章">第一章</a></br>
+</details>
+<p><ul class="markdownIt-TOC"></p>
+
+<!-- 正文部分 -->
+
+</div><footer><font size="3" color=grey><p class="copyright"><center>
+	©2020 沉目. All rights reserved.</br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme <a href="http://theme.typora.io/theme/Han/" target="_blank">Han</a> from <a href="https://typora.io/" target="_blank">Typora</a>.
+	<p>&nbsp;</p>
+	</center></p></font></footer>
 </body>
+</html>
+```
+2. 短篇小说的网页基本框架如下：
+*（取消了章节目录的功能）*
+```
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width initial-scale=1'>
+<link rel="stylesheet" type="text/css" id="github" href="https://injfnovel.now.sh/han.css">
+<title>小说标题</title><style type='text/css'>
+</head>
 
+<!-- 返回顶部 -->
+<style>
+.button2 {
+	border: none; 
+	font-size: 10px;
+    	text-align: center;
+   	text-decoration: none;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.button2:hover {
+    background-color: #ffffff;
+    color: white;
+}
+</style>
+<a id="mback" style="position: fixed;bottom: 10px;right: 10px;" onclick="backTop()"><button class="button2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"/></svg></button></a>
+
+<script type="text/javascript">
+function backTop() {
+	    scrollTo(0, 0);
+	}
+</script>
+
+<!-- 禁止复制 -->
+<body class='typora-export os-windows' leftmargin=0 topmargin=0 oncontextmenu='return false' ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false' onmouseup='document.selection.empty()'>
+<p>&nbsp;</p><div id='write'  class = ''>
+
+<!--网页提示-->
+<body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
+
+<!-- 返回首页 -->
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://injfnovel.now.sh/">返回首页</a>
+
+<p><ul class="markdownIt-TOC"></p>
+
+<!-- 正文部分 -->
+
+</div><footer><font size="3" color=grey><p class="copyright"><center>
+	©2020 沉目. All rights reserved.</br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme <a href="http://theme.typora.io/theme/Han/" target="_blank">Han</a> from <a href="https://typora.io/" target="_blank">Typora</a>.
+	<p>&nbsp;</p>
+	</center></p></font></footer>
 </body>
 </html>
 ```
