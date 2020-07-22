@@ -5,7 +5,7 @@
   --active-file-text-color: white;
   --bg-color: #363B40;
   --text-color: #b8bfc6;
-  --side-bar-bg-color: #4D4D4D;
+  --side-bar-bg-color: #2E3033;
   --control-text-color: #b7b7b7;
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
 pre.md-meta-block {
-  background: #4D4D4D;
+  background: #2E3033;
   padding: 1em;
   border-radius: 3px;
   font-size: 14px;
@@ -55,7 +55,7 @@ pre.md-meta-block {
 
 @media screen and (min-width: 1100px) {
     body, #footer-word-count-info {
-      background: #4D4D4D;
+      background: #2E3033;
     }
 
     body.pin-outline,
@@ -91,7 +91,7 @@ pre.md-meta-block {
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #4D4D4D;
+      background: #2E3033;
     }
 
     .pin-outline  #write {
@@ -99,7 +99,7 @@ pre.md-meta-block {
       padding: 40px 60px;
       background: #363B40;
       margin: 3em auto 3em;
-      border: 1px solid #5E5E5E;
+      border: 1px solid #2E3033;
       border-width: 0 1px;
     }
 
@@ -108,7 +108,7 @@ pre.md-meta-block {
     }
 
     #footer-word-count-info {
-      background: #4D4D4D;
+      background: #2E3033;
     }
 }
 
