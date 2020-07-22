@@ -3,9 +3,9 @@
 :root {
   --active-file-bg-color: rgb(34, 34, 34);
   --active-file-text-color: white;
-  --bg-color: #2e3033;
+  --bg-color: #363B40;
   --text-color: #b8bfc6;
-  --side-bar-bg-color: #363B40;
+  --side-bar-bg-color: #5E5E5E;
   --control-text-color: #b7b7b7;
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
 pre.md-meta-block {
-  background: #2e3033;
+  background: #5E5E5E;
   padding: 1em;
   border-radius: 3px;
   font-size: 14px;
@@ -55,7 +55,7 @@ pre.md-meta-block {
 
 @media screen and (min-width: 1100px) {
     body, #footer-word-count-info {
-      background: #363B40;
+      background: #5E5E5E;
     }
 
     body.pin-outline,
@@ -91,7 +91,7 @@ pre.md-meta-block {
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #363B40;
+      background: #5E5E5E;
     }
 
     .pin-outline  #write {
@@ -99,7 +99,7 @@ pre.md-meta-block {
       padding: 40px 60px;
       background: #363B40;
       margin: 3em auto 3em;
-      border: 1px solid #ddd;
+      border: 1px solid #5E5E5E;
       border-width: 0 1px;
     }
 
@@ -108,7 +108,7 @@ pre.md-meta-block {
     }
 
     #footer-word-count-info {
-      background: #363B40;
+      background: #5E5E5E;
     }
 }
 
@@ -249,7 +249,7 @@ sub {
 
 /* 让链接在 hover 状态下显示下划线 */
 a {
-  color: #1abc9c;
+  color: #b8bfc6;
 }
 
 a:hover {
@@ -257,7 +257,7 @@ a:hover {
 }
 
 #write a {
-  border-bottom: 1px solid #1abc9c;
+  border-bottom: 1px solid #b8bfc6;
 }
 
 #write a:hover {
@@ -285,7 +285,7 @@ pre, code, pre tt {
 }
 
 #write .md-fences {
-  border: 1px solid #ddd;
+  border: 1px solid #1abc9c;
   padding: 1em 0.5em;
   display: block;
   -webkit-overflow-scrolling: touch;
@@ -370,7 +370,7 @@ html {
 
 
 #write table th, #write table td {
-  border: 1px solid #474d54;
+  border: 1px solid #1abc9c;
   padding: 0.5em 1em;
   color: #474d54;
 }
