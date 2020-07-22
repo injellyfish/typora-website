@@ -9,7 +9,7 @@
 
 # 以后希望做到的功能有：
 - [x] 隐藏菜单目录
-- [ ] 不同主题模式切换（可能不是很必要）
+- [x] 不同主题模式切换（可能不是很必要）
 - [ ] 添加评论区/留言板（或许可以用Lof代替）
 </br>
 
@@ -58,8 +58,10 @@ function backTop() {
 <!--网页提示-->
 <body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
 
-<!-- 返回首页 -->
-&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://injfnovel.now.sh/">返回首页</a>
+<!-- 辅助功能 -->
+<details><summary><strong><span>辅助功能</span></strong></summary>
+	<input type="button" value="返回首页🏠" onclick="location.href='http://injfnovel.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/han.css'">
+</details>
 
 <!-- 折叠目录 -->
 <details><summary><strong><span>章节目录（点击展开）</span></strong></summary>
@@ -122,8 +124,10 @@ function backTop() {
 <!--网页提示-->
 <body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
 
-<!-- 返回首页 -->
-&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://injfnovel.now.sh/">返回首页</a>
+<!-- 辅助功能 -->
+<details><summary><strong><span>辅助功能</span></strong></summary>
+	<input type="button" value="返回首页🏠" onclick="location.href='http://injfnovel.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/han.css'">
+</details>
 
 <p><ul class="markdownIt-TOC"></p>
 
