@@ -3,9 +3,9 @@
 :root {
   --active-file-bg-color: rgb(34, 34, 34);
   --active-file-text-color: white;
-  --bg-color: #363B40;
+  --bg-color: #2e3033;
   --text-color: #b8bfc6;
-  --side-bar-bg-color: #2e3033;
+  --side-bar-bg-color: #363B40;
   --control-text-color: #b7b7b7;
 }
 
@@ -69,7 +69,7 @@ pre.md-meta-block {
       padding: 40px 60px;
       background: #363B40;
       margin: 3em auto 3em;
-      border: 1px solid #ddd;
+      border: 1px solid #363b40;
       border-width: 0 1px;
     }
 
