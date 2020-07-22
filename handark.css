@@ -3,16 +3,16 @@
 :root {
   --active-file-bg-color: rgb(34, 34, 34);
   --active-file-text-color: white;
-  --bg-color: #363B40;
+  --bg-color: #2E3033;
   --text-color: #b8bfc6;
-  --side-bar-bg-color: #2E3033;
+  --side-bar-bg-color: #363B40;
   --control-text-color: #b7b7b7;
 }
 
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
   color: #b8bfc6;
-  background: #363B40;
+  background: #2E3033;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
@@ -35,7 +35,7 @@ html {
 }
 
 pre.md-meta-block {
-  background: #2E3033;
+  background: #363B40;
   padding: 1em;
   border-radius: 3px;
   font-size: 14px;
@@ -55,27 +55,27 @@ pre.md-meta-block {
 
 @media screen and (min-width: 1100px) {
     body, #footer-word-count-info {
-      background: #2E3033;
+      background: #363B40;
     }
 
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #363B40;
+      background: #2E3033;
     }
 
     #write {
       max-width: 860px;
       padding: 40px 60px;
-      background: #363B40;
+      background: #2E3033;
       margin: 3em auto 3em;
-      border: 1px solid #363b40;
+      border: 1px solid #2E3033;
       border-width: 0 1px;
     }
 
     .pin-outline #write {
       max-width: 860px;
-      background: #363B40;
+      background: #2E3033;
       margin: 0 0 0;
       border: 0;
       padding-left: 60px;
@@ -91,15 +91,15 @@ pre.md-meta-block {
     body.pin-outline,
     .pin-outline #footer-word-count-info,
     .pin-outline footer {
-      background: #2E3033;
+      background: #2E3;
     }
 
     .pin-outline  #write {
       max-width: 860px;
       padding: 40px 60px;
-      background: #363B40;
+      background: #2E3033;
       margin: 3em auto 3em;
-      border: 1px solid #2E3033;
+      border: 1px solid #2E3;
       border-width: 0 1px;
     }
 
@@ -108,7 +108,7 @@ pre.md-meta-block {
     }
 
     #footer-word-count-info {
-      background: #2E3033;
+      background: #2E3;
     }
 }
 
