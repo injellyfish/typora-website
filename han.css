@@ -22,13 +22,13 @@ html {
 }
 
 #write {
-  max-width: 960px;
+  max-width: 860px;
   padding-top: 2em;
   padding-left: 60px;
   padding-right: 60px;
   min-height: calc(100vh - 6em);
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .typora-node #write {
@@ -44,13 +44,13 @@ pre.md-meta-block {
 
 @media screen and (max-width: 800px) {
     html {
-      font-size: 14px;
+      font-size: 18px;
     }
 
     #write {
       padding-left: 30px;
       padding-right: 30px;
-      font-size: 14px;
+      font-size: 18px;
     }
 }
 
