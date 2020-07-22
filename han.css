@@ -66,7 +66,7 @@ pre.md-meta-block {
     }
 
     #write {
-      max-width: 1000px;
+      max-width: 860px;
       padding: 40px 60px;
       background: #fff;
       margin: 3em auto 3em;
@@ -75,7 +75,7 @@ pre.md-meta-block {
     }
 
     .pin-outline #write {
-      max-width: 1000px;
+      max-width: 860px;
       background: #fff;
       margin: 0 0 0;
       border: 0;
@@ -96,7 +96,7 @@ pre.md-meta-block {
     }
 
     .pin-outline  #write {
-      max-width: 1000px;
+      max-width: 860px;
       padding: 40px 60px;
       background: #fff;
       margin: 3em auto 3em;
