@@ -42,18 +42,36 @@ pre.md-meta-block {
 }
 
 @media screen and (max-width: 800px) {
-    html {
-      font-size: 17px;
+ body, #footer-word-count-info {
+      background: #363B40;
     }
-  
-/* padding-left: 30→12px;
-   padding-right: 30→12px;
-  添加margin: 2em auto 2em;*/
+
+    body.pin-outline,
+    .pin-outline #footer-word-count-info,
+    .pin-outline footer {
+      background: #2E3033;
+    }
+
     #write {
-      padding-left: 12px;
-      padding-right: 12px;
-      margin: 2em auto 2em;
-      font-size: 18px;
+      max-width: 860px;
+      padding: 15px 15px;
+      background: #2E3033;
+      margin: 48px 19px 0px;
+      border: 1px solid #2E3033;
+      border-width: 0 1px;
+    }
+
+    .pin-outline #write {
+      max-width: 860px;
+      background: #2E3033;
+      margin: 0 0 0;
+      border: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    footer {
+      background-color: transparent;
     }
 }
 
