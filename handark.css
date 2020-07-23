@@ -53,23 +53,21 @@ pre.md-meta-block {
     }
 
     #write {
-      max-width: 800px;
-      padding: 10px 10px;
-      font-size: 17px;
+      max-width: 860px;
+      padding: 40px 60px;
       background: #2E3033;
-      margin: 0 0 0;
+      margin: 3em auto 3em;
       border: 1px solid #2E3033;
       border-width: 0 1px;
     }
 
     .pin-outline #write {
-      max-width: 800px;
-      padding-left: 10px;
-      padding-right: 10px;
+      max-width: 860px;
       background: #2E3033;
       margin: 0 0 0;
-      border: 1px solid #2E3033;
-      font-size: 17px;
+      border: 0;
+      padding-left: 60px;
+      padding-right: 60px;
     }
 
     footer {
