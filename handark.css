@@ -57,7 +57,7 @@ pre.md-meta-block {
       max-width: 800px;
       padding: 10px 10px;
       background: #2E3033;
-      margin: 0 0 0;
+      margin: 1em auto 1em;
       border: 1px solid #2E3033;
       border-width: 0 1px;
     }
@@ -66,8 +66,8 @@ pre.md-meta-block {
       font-size: 17px;
       max-width: 800px;
       background: #2E3033;
-      margin: 0 0 0;
-      border: 0;
+      margin: 1em auto 1em;
+      border: 1px solid #2E3033;
       padding-left: 10px;
       padding-right: 10px;
     }
