@@ -54,7 +54,7 @@ pre.md-meta-block {
 
     #write {
       max-width: 800px;
-      padding: 5px 5px;
+      padding: 10px 10px;
       font-size: 17px;
       background: #2E3033;
       margin: 1em auto 1em;
@@ -67,7 +67,7 @@ pre.md-meta-block {
       background: #2E3033;
       margin: 1em auto 1em;
       border: 1px solid #2E3033;
-      padding: 5px 5px;
+      padding: 10px 10px;
       font-size: 17px;
     }
 
