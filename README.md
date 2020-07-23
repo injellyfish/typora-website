@@ -9,7 +9,7 @@
 
 # 以后希望做到的功能有：
 - [x] 隐藏菜单目录
-- [x] 不同主题模式切换（可能不是很必要）
+- [x] 不同主题模式切换（可能不是很必要）（已有🌜🌞🌿）
 - [ ] 添加评论区/留言板（或许可以用Lof代替）
 </br>
 
@@ -60,7 +60,7 @@ function backTop() {
 
 <!-- 辅助功能 -->
 <details><summary><strong><span>辅助功能</span></strong></summary>
-	<input type="button" value="返回首页🏠" onclick="location.href='http://injfnovel.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/han.css'">
+	<input type="button" value="返回首页🏠" onclick="location.href='http://injfnovel.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/han.css'"> | <input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/hangreen.css'">
 </details>
 
 <!-- 折叠目录 -->
@@ -126,7 +126,7 @@ function backTop() {
 
 <!-- 辅助功能 -->
 <details><summary><strong><span>辅助功能</span></strong></summary>
-	<input type="button" value="返回首页🏠" onclick="location.href='http://injfnovel.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/han.css'">
+	<input type="button" value="返回首页🏠" onclick="location.href='http://injfnovel.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/han.css'"> | <input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfnovel.now.sh/hangreen.css'">
 </details>
 
 <p><ul class="markdownIt-TOC"></p>
