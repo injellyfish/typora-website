@@ -42,12 +42,7 @@ pre.md-meta-block {
 }
 
 @media screen and (max-width: 800px) {
-  html {
-      font-size: 17px;
-    }
-
-  
-  body, #footer-word-count-info {
+   body, #footer-word-count-info {
       background: #363B40;
     }
 
