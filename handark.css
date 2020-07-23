@@ -42,14 +42,38 @@ pre.md-meta-block {
 }
 
 @media screen and (max-width: 800px) {
-   html {
-      font-size: 17px;
+   body, #footer-word-count-info {
+      background: #363B40;
+    }
+
+    body.pin-outline,
+    .pin-outline #footer-word-count-info,
+    .pin-outline footer {
+      background: #2E3033;
     }
 
     #write {
-      padding-left: 30px;
-      padding-right: 30px;
       font-size: 17px;
+      max-width: 800px;
+      padding: 30px 30px;
+      background: #2E3033;
+      margin: 3em auto 3em;
+      border: 1px solid #2E3033;
+      border-width: 0 1px;
+    }
+
+    .pin-outline #write {
+      font-size: 17px;
+      max-width: 800px;
+      background: #2E3033;
+      margin: 0 0 0;
+      border: 0;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    footer {
+      background-color: transparent;
     }
 }
 
