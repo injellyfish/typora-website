@@ -57,17 +57,18 @@ pre.md-meta-block {
       padding: 10px 10px;
       font-size: 17px;
       background: #2E3033;
-      margin: 1em auto 1em;
+      margin: 0 0 0;
       border: 1px solid #2E3033;
       border-width: 0 1px;
     }
 
     .pin-outline #write {
       max-width: 800px;
+      padding-left: 10px;
+      padding-right: 10px;
       background: #2E3033;
-      margin: 1em auto 1em;
+      margin: 0 0 0;
       border: 1px solid #2E3033;
-      padding: 10px 10px;
       font-size: 17px;
     }
 
