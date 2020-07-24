@@ -15,7 +15,7 @@
 	<input type="button" value="返回首页🏠" onclick="location.href='http://injfn.now.sh'"> | <input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'"> | <input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'"> | <input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'">
 	<br><br>
 	<details><summary><strong><span>评论说明</span></strong></summary>
-		评论支持匿名，昵称可随意填写😎<br>网址相当于跳转链接，可填写个人博客主页等🔗</details><br><br></center>
+		无需登录，昵称、邮箱和网址均为选填项<br>三项均留空，则系统默认为匿名(Anonymous)评论<br>不会记录评论者的IP地址<br>为保护隐私，不建议各位填写邮箱<br></details><br><br></center>
 
 
 <div id="vcomments"></div>
@@ -24,20 +24,12 @@
 			el: '#vcomments',
             		appId: 'eCuC1VScwMHcV088WadDxvE8-MdYXbMMI',
             		appKey: 'LGhTDhEwaf06NNcVeDceUEFk',
-	    		master: '18a9004e56da8103b5d78efa7d6b9214',
-	    		tagMeta: ["一只水母","小伙伴","访客"],
             		avatar: 'hide',
-            		notify: true,
             		placeholder: '在小站留下你的足迹吧✨',
-            		visitor: true,
-            		highlight: false,
             		// 设置Bilibili表情包地址
     			emojiCDN: '//i0.hdslb.com/bfs/emote/', 
     			// 表情title和图片映射
-    			emojiMaps: {
-        			"tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
-        			"tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
-        			"tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",        
+    			emojiMaps: {   
             		} 
         	})
 	</script>
