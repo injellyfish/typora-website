@@ -1,0 +1,60 @@
+/* VARIABLES -  START */
+/* COLORS  */
+/* DIMENSIONS */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+/* VARIABLES - END */
+/* COMMONS - START */
+.flex-center, .wrapper, .wrapper .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* COMMONS - END */
+/* STYLES -  START */
+
+.wrapper {
+  font-family: "Lato", sans-serif;
+}
+
+.button {
+  height: 50px;
+  width: 170px;
+  background-color: #fefefe;
+  border-radius: 5px;
+  padding: 12.5px;
+  cursor: pointer;
+}
+
+.content .icon {
+  font-size: 25px;
+  color: #ea4a87;
+}
+.content .icon.fa {
+  display: none;
+}
+.content .text {
+  font-size: 25px;
+  color: #2f3537;
+}
+.content .text.like {
+  margin-left: 10px;
+}
+.content .text.d {
+  opacity: 0;
+  display: inline-block;
+  transform: translateX(12px);
+}
+.content .text.number {
+  margin-left: 10px;
+  color: #7a7c81;
+}
+
+/* STYLES - END */
