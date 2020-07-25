@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width initial-scale=1'>
+<script src='https://unpkg.com/valine@1.4.14/dist/Valine.min.js'></script>
+<link rel="shortcut icon" href="https://i.loli.net/2020/07/24/oDBEbyOd6RIu2xT.png">
+<link rel="stylesheet" type="text/css" id="han" href="https://injfn.now.sh/css/han.css">
+<title>Sleepyhead评论区</title><style type='text/css'></style>
+</head>
+
+<body>
+<p>&nbsp; </p>
+<div  id='write'  class = ''>
+<center><h2><strong><ruby>留言评论区<rt>Sleepyhead</rt></ruby></strong></h2>
+	<input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh'" style="cursor:pointer">&nbsp;<input type="button" value="小说阅读📖" onclick="location.href='https://injfn.now.sh/novel/sleepyhead.html'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
+	<br><br>
+	<details><summary style="cursor:pointer"><strong><span>评论说明</span></strong></summary>
+		昵称、邮箱和网址均为选填项<br>昵称留空则会默认为<ruby>匿名评论<rt>Anonymous</rt></ruby><br>不会记录评论者的IP地址<br>为保护隐私不建议您填写邮箱<br>评论不可自行删除或修改</details><br><br></center>
+
+
+<div id="vcomments"></div>
+	<script>
+		new Valine({
+			          el: '#vcomments',
+            		appId: 'eCuC1VScwMHcV088WadDxvE8-MdYXbMMI',
+            		appKey: 'LGhTDhEwaf06NNcVeDceUEFk',
+            		avatar: 'hide',
+            		placeholder: '您的评论将会是沉目码字的巨大动力（づ￣3￣）づ╭❤～',
+    			      emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+    			      emojiMaps: {   
+            		} 
+        	})
+	</script>
+
+</div>
+</body>
+
+<footer><font size="3" color=grey><p class="copyright"><center>
+	©2020 沉目. All rights reserved.</br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme <a href="http://theme.typora.io/theme/Han/" target="_blank">Han</a> from <a href="https://typora.io/" target="_blank">Typora</a>.
+	<p>&nbsp;</p>
+	</center></p></font></footer>
+</html>
