@@ -21,7 +21,7 @@ html {
 }
 
 #write {
-  max-width: 860px;
+  max-width: 750px;
   padding-top: 2em;
   padding-left: 60px;
   padding-right: 60px;
@@ -65,7 +65,7 @@ pre.md-meta-block {
     }
 
     #write {
-      max-width: 860px;
+      max-width: 750px;
       padding: 40px 60px;
       background: #2E3033;
       margin: 3em auto 3em;
@@ -95,7 +95,7 @@ pre.md-meta-block {
     }
 
     .pin-outline  #write {
-      max-width: 860px;
+      max-width: 750px;
       padding: 40px 60px;
       background: #2E3033;
       margin: 3em auto 3em;
@@ -156,14 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-em {
-  font-family: Georgia-Italic, STSongti-SC-Light, serif;
-}
 
-strong em,
-em strong {
-  font-family: Georgia-BoldItalic, STSongti-SC-Regular, serif;
-}
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
