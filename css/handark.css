@@ -17,6 +17,7 @@ html {
   -ms-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
   font-size: 14px;
+  font-weight: bold;
   -webkit-font-smoothing: initial;
 }
 
