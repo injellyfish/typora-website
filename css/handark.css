@@ -156,7 +156,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
+em {
+  font-family: Georgia-Italic, STSongti-SC-Light, serif;
+}
 
+strong em,
+em strong {
+  font-family: Georgia-BoldItalic, STSongti-SC-Regular, serif;
+}
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
