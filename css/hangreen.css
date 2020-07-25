@@ -144,13 +144,14 @@ body, button, input, select, textarea {
 
 body {
   font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+  font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "TimesNewRomanPS-ItalicMT", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
   /*font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;*/
   -webkit-font-smoothing: initial;
-  font-weight: 100;
+  font-weight: normal;
   color: var(--text-color);
   line-height: 1.35; 
   font-variant-numeric: lining-nums;
@@ -187,7 +188,7 @@ fieldset, img {
 blockquote {
   position: relative;
   color: #999;
-  font-weight: 400;
+  font-weight: normal;
   border-left: 1px solid #1abc9c;
   padding-left: 1em;
   margin: 1em 3em 1em 2em;
