@@ -43,38 +43,31 @@
 <body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
 
 <!-- 辅助功能 -->
-<details><summary style="cursor:pointer"><strong><span>辅助功能</span></strong></summary>
-	<input type="button" value="返回首页🏠" onclick="location.href='http://injfn.now.sh'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
+<details><summary style="cursor:pointer"><span>辅助功能</span></summary>
+	<input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh/'" style="cursor:pointer">&nbsp;<input type="button" value="留言评论💬" onclick="location.href='https://injfn.now.sh/comments/isolde.html'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
 </details>
 
 <!-- 折叠目录 -->
-<details><summary style="cursor:pointer"><strong><span>章节目录</span></strong></summary>
+<details><summary style="cursor:pointer"><span>章节目录</span></summary>
 	<a href="#第一章">第一章</a></br>
-	<a href="#第二章">第二章</a></br>
-	<a href="#第三章">第三章</a></br>
-	<a href="#第四章">第四章</a></br>
-	<a href="#第五章">第五章</a></br>
-	<a href="#第六章">第六章</a></br>
-	<a href="#第七章">第七章</a></br>
 </details>
 
 
 <!-- 正文部分 -->
-<h2><a name="章节标题" class="md-header-anchor"></a><span>章节标题</span></h2>
+<h2><a name="第一章" class="md-header-anchor"></a><span>第一章</span></h2>
 
 <p>&nbsp;</p>
 
 
 
-</div><footer><font size="3" color=grey><p class="copyright"><center>
+</div><footer><font size="3" color=grey><center>
 	©2020 沉目. All rights reserved.</br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme <a href="http://theme.typora.io/theme/Han/" target="_blank">Han</a> from <a href="https://typora.io/" target="_blank">Typora</a>.
 	<p>&nbsp;</p>
-	</center></p></font></footer>
+	</center></font></footer>
 
 <!-- 回到顶部 -->
 <style>
 .button2 {
-	padding: 7px 7px;
 	background-color: transparent;
 	cursor:pointer; 
 }
