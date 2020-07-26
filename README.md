@@ -28,7 +28,7 @@
 <meta name='viewport' content='width=device-width initial-scale=1'>
 <link rel="shortcut icon" href="https://i.loli.net/2020/07/24/oDBEbyOd6RIu2xT.png">
 <link rel="stylesheet" type="text/css" id="han" href="https://injfn.now.sh/css/han.css">
-<title>遗落之墟的龙与精灵</title><style type='text/css'>
+<title>███网页标题███</title><style type='text/css'>
 </head>
 
 <!-- style -->
@@ -40,22 +40,22 @@
 <body class='typora-export os-windows' leftmargin=0 topmargin=0 oncontextmenu='return false' ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false' onmouseup='document.selection.empty()'>
 
 <!--网页提示-->
-<body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
+<body onload="javascript:window.alert('███⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？███')"></body>
 
 <!-- 辅助功能 -->
 <details><summary style="cursor:pointer">辅助功能</summary>
-	<input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh/'" style="cursor:pointer">&nbsp;<input type="button" value="留言评论💬" onclick="location.href='https://injfn.now.sh/comments/isolde.html'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
+	<input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh/'" style="cursor:pointer">&nbsp;<input type="button" value="留言评论💬" onclick="window.open('https://injfn.now.sh/comments/███地址███')" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
 </details>
 
 <!-- 折叠目录 -->
-<details><summary style="cursor:pointer">章节目录</summary>
-	<a href="#第一章">第一章</a></br>
+<details><summary style="cursor:pointer">███章节目录███</summary>
+	<a href="#███第一章███">███第一章███</a></br>
 </details>
 
 
 <!-- 正文部分 -->
-<h2><a name="第一章" class="md-header-anchor"></a><span>第一章</span></h2>
-
+<h2><a name="███第一章███" class="md-header-anchor"></a><span>███第一章███</span></h2>
+████████
 <p>&nbsp;</p>
 
 
