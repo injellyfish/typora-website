@@ -43,12 +43,12 @@
 <body onload="javascript:window.alert('⚠️这是一篇不适合未成年人阅读的文章！\n您确定自己已年满十八周岁？')"></body>
 
 <!-- 辅助功能 -->
-<details><summary style="cursor:pointer"><span>辅助功能</span></summary>
+<details><summary style="cursor:pointer">辅助功能</summary>
 	<input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh/'" style="cursor:pointer">&nbsp;<input type="button" value="留言评论💬" onclick="location.href='https://injfn.now.sh/comments/isolde.html'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
 </details>
 
 <!-- 折叠目录 -->
-<details><summary style="cursor:pointer"><span>章节目录</span></summary>
+<details><summary style="cursor:pointer">章节目录</summary>
 	<a href="#第一章">第一章</a></br>
 </details>
 
