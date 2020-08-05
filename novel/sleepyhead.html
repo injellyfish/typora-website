@@ -8,9 +8,6 @@
 <title>Sleepyhead</title>
 </head>
 
-<!-- style -->
-<style></style>
-
 <p>&nbsp;</p><div id='write'  class = ''>	
 	
 <!-- 禁止复制 -->
@@ -28,8 +25,14 @@ function isHidden(oDiv){
 </DIV>
 
 <!-- 折叠目录 -->
-<div style="cursor:pointer" onclick="isHidden('div1')">✦章节目录</div>
-<DIV id="div1" style="display:none">
+<script>
+function isHidden(oDiv){
+      var vDiv = document.getElementById(oDiv);
+      vDiv.style.display = (vDiv.style.display == 'none')?'block':'none';
+    }
+</script>
+<div style="cursor:pointer" onclick="isHidden('div2')">✦章节目录</div>
+<DIV id="div2" style="display:none">
 	<a href="#第一幕">第一幕</a></br>
 	<a href="#第二幕">第二幕</a></br>
 	<a href="#第三幕">第三幕</a></br>
@@ -306,12 +309,10 @@ function isHidden(oDiv){
 <p>“伦敦。”</p>
 
 
+<p>&nbsp;</p></div>
 
-
-<p>&nbsp;</p>
-</div><footer><font size="3" color=grey><center>
+<footer><font size="3" color=grey><center>
 	©2020 沉目. All rights reserved.</br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme <a href="http://theme.typora.io/theme/Han/" target="_blank">Han</a> from <a href="https://typora.io/" target="_blank">Typora</a>.
-	<p>&nbsp;</p>
 	</center></font></footer>
 
 <!-- 回到顶部 -->
