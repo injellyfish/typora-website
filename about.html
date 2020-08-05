@@ -5,7 +5,7 @@
 <meta name='viewport' content='width=device-width initial-scale=1'>
 <script src='https://unpkg.com/valine@1.4.14/dist/Valine.min.js'></script>
 <link rel="shortcut icon" href="https://i.loli.net/2020/07/24/oDBEbyOd6RIu2xT.png">
-<link rel="stylesheet" type="text/css" id="han" href="https://injfn.now.sh/css/han.css">
+<link rel="stylesheet" type="text/css" id="han" href="/css/han.css">
 
 <!-- Boxicons CSS -->
 <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -21,9 +21,15 @@
 <h2><center>关于小站</center></h2>
 <hr />
 <!-- 辅助功能 -->
-<details><summary style="cursor:pointer"><span>辅助功能</span></summary>
-	<input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh/'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
-</details>
+<script>
+function isHidden(oDiv){
+      var vDiv = document.getElementById(oDiv);
+      vDiv.style.display = (vDiv.style.display == 'none')?'block':'none';
+    }
+</script>
+<div style="cursor:pointer" onclick="isHidden('div1')">✦辅助功能</div>
+	<DIV id="div1" style="display:none"><input type="button" value="返回首页🏠" onclick="location.href='https://injfn.now.sh/'" style="cursor:pointer">&nbsp;<input type="button" value="夜间模式🌜" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/handark.css'" style="cursor:pointer">&nbsp;<input type="button" value="日间模式🌞" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/han.css'" style="cursor:pointer">&nbsp;<input type="button" value="绿色模式🌿" onclick="javascript:document.getElementById('han').href='https://injfn.now.sh/css/hangreen.css'" style="cursor:pointer">
+</DIV>
 
 <h4><i class='bx bxs-info-circle' ></i>小站简介</h4>
 	<p>「𝗵𝘁𝘁𝗽𝘀://𝗶𝗻𝗷𝗳𝗻.𝗻𝗼𝘄.𝘀𝗵」是沉目的个人小说备份存档网站，中文名可简称为「自留地」。</p>
