@@ -129,7 +129,7 @@ sub {
 
 /* 让链接在 hover 状态下显示下划线 */
 a {
-  color: #1abc9c;
+  color: #b6a476;
 }
 
 a:hover {
@@ -137,12 +137,12 @@ a:hover {
 }
 
 .typo a {
-  border-bottom: 1px none #1abc9c;
+  border-bottom: 1px none #b6a476;
 }
 
 .typo a:hover {
-  border-bottom-color: #555;
-  color: #555;
+  border-bottom-color: #b6a476;
+  color: #b6a476;
   text-decoration: underline;
 }
 
@@ -348,14 +348,16 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
 }
 
-/* 网页背景 */
+/* 网页背景 https://webgradients.com/的Heavy Rain*/
  code{ color:#1abc9c; }
 
- html{ background: #f6f6f6; }
+ html{ background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen; }
 
  body{ 	width:90%; 
-	max-width: 850px; 
-	background:#fff; 
+	max-width: 750px; 
+	background: #f4f4f4;
 	padding-bottom:2em;
 	margin:3em auto 0; 
 	border:none;
