@@ -29,32 +29,86 @@ function isHidden(oDiv){
 #p_span{display: block}
 </style>
 
+<!-- 打字机效果 -->
+<script src="https://unpkg.com/ityped@1.0.3"></script>	
+
+
+<!-- 正文 -->
 <div id="wrapper" class="typo typo-selection">
-<center><h1><b>「  J E L L Y F I S H 」</b></h1></center><br>
-<hr><p>&nbsp;</p>
+<center><h1><b>「  J E L L Y F I S H 」</b></h1>
+<!-- 打字机 -->
+<span id="ityped"></span>
+  <script>
+  ityped.init('#ityped', {
+    strings: ['你好(｡･∀･)ﾉﾞ','欢迎来到沉目的自留地', '请注意阅读分级提示', '部分文章不适合未成年人阅读'],
+    startDelay: 500,
+    backDelay:  1400,
+    backSpeed:  100,
+    typeSpeed:  100,
+    loop: true,
+    cursorChar: "|"
+  }); 
+  </script>
+  <style>
+#ityped {
+    	font-size: 1rem;
+    	color: #888;
+    	text-align: center;
+	}
+	
+.ityped-cursor {
+    font-size: 0.9rem;
+    color: #888;
+    opacity: 1;
+    -webkit-animation: blink 0.5s infinite;
+    -moz-animation: blink 0.5s infinite;
+    animation: blink 0.5s infinite;
+    animation-direction: alternate;
+	}
+	@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+  </style>
+</center>
+<br><hr><br>
 
 <div style="cursor:pointer" onclick="isHidden('div1')">
-<li><i class='bx bx-flashing-hover'><font size=4><b>遗落之墟的龙与精灵</b></font></i></div>
-<DIV id="div1" style="display:none"><small>「 断翼的龙捡到了受伤的流浪精灵 」</small><br>
-	<i class='bx bx-border bxs-error bx-tada-hover' >分级</i><b><font color=red> R-18，不适合未成年人阅读</font></b><br>
-	<i class='bx bx-border bxs-traffic-cone bx-tada-hover' >预警</i> H / 过激暴力描写 / 非自愿性描写<br>
-	<i class='bx bx-border bxs-purchase-tag bx-tada-hover' >标签</i> BL / 原创中篇 / 西方奇幻 / 非人种族 / H/C<br>
-	<i class='bx bx-border bxs-book-open bx-tada-hover' >阅读</i> <b><a href="/novel/isolde.html">我承诺自己已年满十八岁</a></b><br>
+<li><b><font size=4>遗落之墟的龙与精灵</font></b>&nbsp;<font size=2 color=red><i class='bx bx-border' style="cursor:default">R-18</i></font></div>
+<DIV id="div1" style="display:none"><small>&nbsp;&nbsp;「 断翼的龙捡到了受伤的流浪精灵 」</small><br>
+	<i class='bx bx-border bxs-error bx-tada-hover' style="cursor:default">分级</i><b><font color=red> R-18，不适合未成年人阅读</font></b><br>
+	<i class='bx bx-border bxs-traffic-cone bx-tada-hover' style="cursor:default">预警</i> H / 过激暴力描写 / 非自愿性描写<br>
+	<i class='bx bx-border bxs-purchase-tag bx-tada-hover' style="cursor:default">标签</i> BL / 原创中篇 / 西方奇幻 / 非人种族 / H/C<br>
+	<i class='bx bx-border bxs-book-open bx-tada-hover' style="cursor:default">阅读</i><b><a href="https://jefi.now.sh/"> 我是未成年人</a> / <a href="/novel/isolde.html">我确定自己已成年</a></b><br>
 </DIV><br>
 
-<div style="cursor:pointer" onclick="isHidden('div2')">
-<li><i class='bx bx-flashing-hover'><font size=4><b>Sleepyhead</b></font></i></div>
-<DIV id="div2" style="display:none"><small>「 公主和王子幸福快乐地生活在一起，但那发生在很久很久以前 」</small><br>
-	<i class='bx bx-border bxs-error bx-tada-hover' >分级</i><b><font color=#fb7e22> PG-13，不适合13岁以下读者阅读</font></b><br>
-	<i class='bx bx-border bxs-traffic-cone bx-tada-hover' >预警</i> 恐怖猎奇描写<br>
-	<i class='bx bx-border bxs-purchase-tag bx-tada-hover' >标签</i> 无CP / 原创短篇 / 西方奇幻 / 悬疑<br>
-	<i class='bx bx-border bxs-book-open bx-tada-hover' >阅读</i> <b><a href="/novel/sleepyhead.html">我承诺自己已年满十三岁</a></b><br>
+<div style="cursor:pointer " onclick="isHidden('div2')">
+<li><b><font size=4>Sleepyhead</font></b>&nbsp;<font size=2  color=#478bbd><i class='bx bx-border' style="cursor:default">PG-13</i></font></div>
+<DIV id="div2" style="display:none"><small>&nbsp;&nbsp;「 公主和王子幸福快乐地生活在一起，但那发生在很久很久以前 」</small><br>
+	<i class='bx bx-border bxs-error bx-tada-hover' style="cursor:default">分级</i><b><font color=#fb7e22> PG-13，不适合13岁以下读者阅读</font></b><br>
+	<i class='bx bx-border bxs-traffic-cone bx-tada-hover' style="cursor:default">预警</i> 恐怖猎奇描写<br>
+	<i class='bx bx-border bxs-purchase-tag bx-tada-hover' style="cursor:default">标签</i> 无CP / 原创短篇 / 西方奇幻 / 悬疑<br>
+	<i class='bx bx-border bxs-book-open bx-tada-hover' style="cursor:default">阅读</i> <b><a href="/novel/sleepyhead.html">开始阅读</a></b><br>
 </DIV>
 
 <p>&nbsp;</p></div>
 <footer><font size="2" color="grey"><center>
-	©2020 沉目. All rights reserved.
-	<br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme from <a href="https://typo.sofi.sh/" target="_blank">Typo.css</a><br>
+	©2020 沉目. All rights reserved.<br>
+	Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme from <a href="https://typo.sofi.sh/" target="_blank">Typo.css</a><br>
+	<a href="/about.html" taret="_blank">关于自留地</a>
 	</center></font></footer>
 
 </body>
