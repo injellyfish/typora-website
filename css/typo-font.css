@@ -22,6 +22,10 @@ body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset,
   padding: 0;
 }
 
+p{
+	margin-top:15px;
+}
+
 /* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
 article, aside, details, figcaption, figure, footer, header, menu, nav, section {
   display: block;
