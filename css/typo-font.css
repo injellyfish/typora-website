@@ -45,6 +45,10 @@ input::-moz-focus-inner {
   border: 0;
 }
 
+p{
+	text-indent:2em;
+}
+
 /* 去掉各Table cell 的边距并让其边重合 */
 table {
   border-collapse: collapse;
