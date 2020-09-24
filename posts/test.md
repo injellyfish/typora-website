@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, minimal-ui">
+<link rel="stylesheet" id="typo-read" href="/css/typo-read.css">
+<link rel="shortcut icon" href="https://i.loli.net/2020/07/24/oDBEbyOd6RIu2xT.png">
+<!-- Boxicons CSS -->
+<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<title>Sleepyhead</title>
+</head>
+<body>
+
 # 滕王阁序
 
 唐·王勃
@@ -23,3 +36,6 @@
 闲云潭影日悠悠，物换星移几度秋。
 
 阁中帝子今何在？槛外长江空自流。
+
+</body>
+</html>
