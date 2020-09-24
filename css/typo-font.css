@@ -45,8 +45,10 @@ input::-moz-focus-inner {
   border: 0;
 }
 
+/* 沉目的魔改内容：段首空两行&段落间距 */
 p{
-	text-indent:2em;
+	text-indent:2em; /*使段首空两行，不需要可以删掉 */
+	margin-top: 15px; /* 段落间距，不需要可删掉 */
 }
 
 /* 去掉各Table cell 的边距并让其边重合 */
