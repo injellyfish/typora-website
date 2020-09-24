@@ -40,3 +40,5 @@
 </body>
 </html>
 ```
+## 许可
+仓库里使用的 CSS 样式来自 [typo.css](https://github.com/sofish/Typo.css)。根据作者要求，使用其代码需要**说明来源**。
