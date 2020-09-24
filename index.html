@@ -3,96 +3,36 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, minimal-ui">
+	
+<!-- 这里是您网页的css样式 -->
 <link rel="stylesheet" id="typo-font" href="/css/typo-font.css"/>
-<!-- 最后要把.去掉@@ -->
-<link rel="shortcut icon" href="https://i.loli.net/2020/07/24/oDBEbyOd6RIu2xT.png">
-<!-- Boxicons CSS -->
+	
+<!-- 这里是网页图标，在href的双引号里添加图片的url地址即可使用（默认不显示，如需显示请去掉这一行
+<link rel="shortcut icon" href="">
+如需显示，这一行也请去掉-->
+	
+<!-- 您可以在这里设置是否调用Boxicons CSS（默认不调用，如需使用请去掉这一行
 <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-<title>沉目的自留地</title>
+如需使用，这一行也请去掉-->
+
+<!-- 这里是您的网页显示标题，请自己修改名称（将“标题”替换为其他名称） -->
+<title>标题</title>
 </head>
 <body>
-
-<!-- 折叠功能 -->
-<script>
-function isHidden(oDiv){
-      var vDiv = document.getElementById(oDiv);
-      vDiv.style.display = (vDiv.style.display == 'none')?'block':'none';
-    }
-</script>
-
-<!-- 居中左对齐 -->
-<style>
-*{margin: 0;padding: 0}
-.box{text-align: center}
-.box p {margin:0;padding:0;display: inline-block;vertical-align: middle;text-align: left}
-#liu_area{display: inline-block;height:100%;vertical-align: middle;}
-#p_span{display: block}
-</style>
-
-<!-- 打字机效果 -->
-<script src="https://unpkg.com/ityped@1.0.3"></script>	
-
-
-<!-- 正文 -->
 <div id="wrapper" class="typo typo-selection">
-<center><h1><b>「  J E L L Y F I S H 」</b></h1>
-<!-- 打字机 -->
-<span id="ityped"></span>
-  <script>
-  ityped.init('#ityped', {
-    strings: ['你好(｡･∀･)ﾉﾞ','欢迎来到沉目的自留地', '请注意阅读分级提示', '部分文章不适合未成年人阅读'],
-    startDelay: 500,
-    backDelay:  1400,
-    backSpeed:  100,
-    typeSpeed:  100,
-    loop: true,
-    cursorChar: "|"
-  }); 
-  </script>
-  <style>
-#ityped {
-    	font-size: 1rem;
-    	color: #888;
-    	text-align: center;
-	}
-
-.ityped-cursor {
-    font-size: 0.9rem;
-    color: #888;
-    opacity: 1;
-    -webkit-animation: blink 0.5s infinite;
-    -moz-animation: blink 0.5s infinite;
-    animation: blink 0.5s infinite;
-    animation-direction: alternate;
-	}
-	@keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-  </style>
-</center>
+	
+<!-- 标题。请修改“Typora Website”为您喜欢的标题 -->
+<center><h1><b>Typora Website</b></h1></center>
 <br><hr><br>
 
-	<a href="/posts/test.html">测试</a>
+<!-- 正文部分 -->
+<li><a href="/posts/test.html">测试</a></li>
 
+<!-- 正文部分 -->
 <p>&nbsp;</p></div>
 <footer><font size="2" color="grey"><center>
-	©2020 沉目. All rights reserved.<br>
+	您的名字. All rights reserved.<br>
 	Powered by <a href="https://vercel.com/" target="_blank">Vercel</a> | Theme from <a href="https://typo.sofi.sh/" target="_blank">Typo.css</a><br>
-	<a href="/about.html" target="_blank">关于自留地</a>
 	</center></font></footer>
 
 </body>
