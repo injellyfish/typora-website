@@ -20,7 +20,6 @@ html.borderbox *, html.borderbox *:before, html.borderbox *:after {
 body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
 /* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
@@ -36,19 +35,12 @@ audio, canvas, video {
 /* 要注意表单元素并不继承父级 font 的问题 */
 body, button, input, select, textarea {
   font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
-  font-weight: normal;
 }
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
-}
-
-/* 沉目的魔改内容：段首空两行&段落间距 */
-p{
-	/*text-indent:2em; /*使段首空两行，默认关闭。需要使用可以把开头的"/*"删掉 */
-	margin-top: 15px; /* 段落间距，不需要可删掉 */
 }
 
 /* 去掉各Table cell 的边距并让其边重合 */
@@ -66,7 +58,7 @@ fieldset, img {
 blockquote {
   position: relative;
   color: #999;
-  font-weight: 500;
+  font-weight: 400;
   border-left: 1px solid #1abc9c;
   padding-left: 1em;
   margin: 1em 3em 1em 2em;
@@ -97,7 +89,7 @@ del {
 
 address, caption, cite, code, dfn, em, th, var {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
@@ -135,7 +127,7 @@ sub {
 
 /* 让链接在 hover 状态下显示下划线 */
 a {
-  color: #b6a476;
+  color: #1abc9c;
 }
 
 a:hover {
@@ -143,13 +135,13 @@ a:hover {
 }
 
 .typo a {
-  border-bottom: 1px none #b6a476;
+  border-bottom: 1px solid #1abc9c;
 }
 
 .typo a:hover {
-  border-bottom-color: #b6a476;
-  color: #b6a476;
-  text-decoration: underline;
+  border-bottom-color: #555;
+  color: #555;
+  text-decoration: none;
 }
 
 /* 默认不显示下划线，保持页面简洁 */
@@ -240,7 +232,6 @@ strong, b {
 /* 提供 serif 版本的字体设置: iOS 下中文自动 fallback 到 sans-serif */
 .serif {
   font-family: Palatino, Optima, Georgia, serif;
-  font-weight: normal;
 }
 
 /* 保证块/段落之间的空白隔行 */
@@ -251,7 +242,7 @@ strong, b {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   color: #000;
   line-height: 1.35;
 }
@@ -353,8 +344,6 @@ h1, h2, h3, h4, h5, h6 {
 .typo img {
   max-width: 100%;
 }
-
-/* 网页背景 https://webgradients.com/的Heavy Rain*/
  code{ color:#1abc9c; }
 
  html{ background:#fafafa ;}
